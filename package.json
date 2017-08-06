@@ -4,7 +4,7 @@
   "description": "LARF another redundant framework",
   "main": "src/larf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/joncys/larf/issues"
   },
-  "homepage": "https://github.com/joncys/larf#readme"
+  "homepage": "https://github.com/joncys/larf#readme",
+  "devDependencies": {
+    "jsdom": "^11.1.0",
+    "tape": "^4.8.0"
+  }
 }
