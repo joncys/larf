@@ -1,0 +1,26 @@
+{
+  "name": "larf",
+  "version": "0.7.492",
+  "description": "LARF another redundant framework",
+  "main": "src/larf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joncys/larf.git"
+  },
+  "keywords": [
+    "lel",
+    "lol",
+    "larf",
+    "redundant",
+    "framework"
+  ],
+  "author": "Simonas Jončys <simonasjoncys@gmail.com> (http://www.joncys.lt)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joncys/larf/issues"
+  },
+  "homepage": "https://github.com/joncys/larf#readme"
+}
