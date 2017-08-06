@@ -4,7 +4,8 @@
   "description": "LARF another redundant framework",
   "main": "src/larf.js",
   "scripts": {
-    "test": "tape test/**/*.spec.js"
+    "test": "tape test/**/*.spec.js",
+    "dev": "nodemon -q -x 'npm test'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/joncys/larf#readme",
   "devDependencies": {
     "jsdom": "^11.1.0",
+    "nodemon": "^1.11.0",
     "tape": "^4.8.0"
   }
 }
