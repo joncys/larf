@@ -49,6 +49,9 @@ function element(el, model) {
 
 module.exports = function(descriptor) {
   var el = str2el(descriptor.template)
-  window.document.querySelector(descriptor.mount).appendChild(el)
-  element(el, descriptor.model)
+  var mount = descriptor.mount
+  var model = descriptor.model
+  element(el, model)
+  window.document.querySelector(mount).appendChild(el)
+  return model
 }
